@@ -1,0 +1,483 @@
+.header {
+    height: 20px;
+    width: 100%;
+    background: #01371f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 70px;
+    margin-left: -20px;
+}
+
+
+.total-cont {
+    background-color: #000000;
+}
+
+.coffeBanner {
+    height: 468px;
+    color: #080808;
+    position: absolute;
+    opacity: 0.12px;
+    width: 100%;
+
+}
+
+.footer {
+    border: 1px solid black;
+    background-color: #01371f;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.footer .social-icons a {
+    color: #f8f9fa;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    color: #007bff;
+}
+
+.leaves {
+    height: 40px;
+    width: 100%;
+    background-color: #01371f;
+    margin-top: -3px;
+}
+
+.header-text {
+    background: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
+    margin-right: 20px;
+    font-family: cursive;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    color: black;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.bloodType {
+    font-size: 40px;
+    color: #4D8B55;
+    font-weight: bolder;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.bloodType2 {
+    font-size: 35px;
+    color: #fffefe;
+    font-weight: bolder;
+    position: relative;
+    /* animation: slideIn 1s ease-out forwards; */
+    /* opacity: 0; */
+    /* transform: translateX(-100%); */
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.coffetext {
+    text-align: center;
+}
+
+.logo-2 {
+    position: relative;
+    margin-left: 0px;
+    height: 200px;
+    transform: scale(1.2);
+    width: 324px;
+}
+
+.bean {
+    position: relative;
+    margin-left: 0px;
+    height: 173px;
+    width: 200px;
+    transform: scale(1.2);
+    animation: slideIn 1s ease-out forwards;
+    top: 20px;
+    overflow: hidden;
+    /* Ensure smoke stays inside the .bean div */
+}
+
+.navbar-collapse {
+    position: fixed;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    text-align: center;
+    width: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    color: #4D8B55;
+    background-color: #000000;
+    box-shadow: 0px 0px 10px 0px;
+    border-radius: 20px;
+    z-index: 10;
+}
+
+.bg-dark {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    color: black !important;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.navbar-collapse.show {
+    width: 250px;
+
+}
+
+.navbar-nav {
+    flex-direction: column;
+    padding-left: 20px;
+    margin-top: 60px;
+
+    margin-left: -10px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.nav-link:hover {
+    width: 100%;
+    background-color: #21515a;
+    border-radius: 25px;
+    color: #000000 !important;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background: none;
+    border: none;
+}
+
+
+.card-style {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    transition: transform 0.5s ease;
+    animation: slideIn 1s ease-out forwards;
+}
+
+.text-cont {
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+.text-cont-p {
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+
+.card-container {
+    height: auto;
+    box-shadow: 0px 0px 10px 0px;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    display: none;
+}
+
+.card {
+    border-radius: 70px;
+}
+
+.card:hover {
+    transform: scale(1.7);
+
+    filter: drop-shadow(2px 4px 6px #40a9ba);
+    z-index: 10;
+}
+
+.people {
+    position: relative;
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 0px;
+    filter: drop-shadow(2px 4px 6px #508a98);
+}
+
+.people:hover {
+    transform: scale(1.05);
+
+    filter: drop-shadow(2px 4px 6px #40a9ba);
+    z-index: 1;
+
+}
+
+.people img {
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+}
+
+.people::before,
+.people::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    z-index: 2;
+    transition: all 0.5s ease;
+}
+
+
+
+.people::before {
+    left: 0;
+
+}
+
+.people::after {
+    right: 0;
+
+}
+
+.people:hover::before {
+    left: -50%;
+
+}
+
+.people:hover::after {
+    right: -50%;
+
+}
+
+.people:hover img {
+    transform: scale(1.05);
+
+    filter: drop-shadow(2px 4px 6px #40a9ba);
+    z-index: 1;
+
+}
+
+.card:hover {
+    transform: scale(1.7);
+
+    filter: drop-shadow(2px 4px 6px #40a9ba);
+    z-index: 10;
+}
+
+.text-cont1 {
+    text-align: center;
+    font-family: cursive;
+    /* text-decoration: underline; */
+    background-color: #012022;
+    color: white;
+    margin-bottom: 1px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+
+.blog {
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 40px; */
+    box-shadow: 0px 0px 10px 0px;
+    filter: drop-shadow(2px 4px 6px #508a98);
+}
+
+.blog:hover {
+    transform: scale(1.05);
+
+    filter: drop-shadow(2px 4px 6px #40a9ba);
+    z-index: 1;
+
+}
+
+.blog img {
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+}
+
+.blog::before,
+.blog::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: rgba(63, 48, 48, 0.5);
+
+    z-index: 2;
+    transition: all 0.5s ease;
+}
+
+
+
+.blog::before {
+    left: 0;
+
+}
+
+.blog::after {
+    right: 0;
+
+}
+
+.blog:hover::before {
+    left: -50%;
+
+}
+
+.blog:hover::after {
+    right: -50%;
+
+}
+
+.blog:hover img {
+    transform: scale(1.05);
+
+    filter: drop-shadow(2px 4px 6px #40a9ba);
+    z-index: 1;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) {
+    .header {
+        height: 100px;
+        background-color: #262626 !important;
+    }
+
+
+    .coffeBanner {
+        height: auto;
+        width: 100%;
+    }
+
+    .logo {
+        height: 100px;
+        margin-left: -18px;
+        background-color: white;
+
+
+    }
+
+    .header-text {
+        background: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+        font-size: 30px;
+        text-align: center;
+        width: 300px;
+        margin-right: 20px;
+        font-family: cursive;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 20px;
+        color: black;
+    }
+
+    .navbar-collapse {
+        position: static;
+        width: auto;
+        height: auto;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    .nav-link {
+        padding: 0 10px;
+    }
+
+    .leaves {
+        height: 400px;
+        width: 100%;
+        background-color: #4D8B55;
+
+    }
+
+    .close-btn {
+        display: none;
+    }
+}
